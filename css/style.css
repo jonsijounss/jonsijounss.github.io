@@ -1,0 +1,243 @@
+/*Estilat sobre elements HTML */
+body {
+ background-color: rgba(125,191,150,0.35);
+ font-family: 'Roboto', sans-serif;
+    
+}
+
+h1,
+h2,
+h3,
+h4 {
+ 
+    font-family: 'Arial', sans-serif;
+ letter-spacing: 1px;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+p {
+ font-family: 'Open Sans', sans-serif;
+ font-size: 0.9em;
+}
+a {
+ text-decoration: none;
+ color: black;
+}
+nav {
+ margin: 1 px;
+ padding: 2 px;
+    display: inline-block;
+    
+ /*mostrar*/
+ 
+   
+}
+/*Classes Contenidors */
+.contenidor {
+ background-color: ghostwhite;
+ width: 95%;
+ margin: 10px auto 50px auto;
+ /*mostrar*/
+ border: 1px solid black;
+    text-align: center;
+}
+.contenidor-xxss {
+ margin: 5px;
+ padding: 5px;
+ text-align: right;
+ box-sizing: border-box;
+ background-color: rgba(103, 161, 125, 0.4);
+ /*mostrar*/
+ border: 1px solid black;
+}
+.contenidor-flex {
+ margin: 5px;
+ padding: 5px;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ align-content: center;
+ flex-wrap: wrap;
+ /*mostrar*/
+ 
+}
+.contenidor-imatge {
+ margin: auto;
+ padding: 5px;
+ /*mostrar*/
+ width: auto;
+}
+.contenidor-text {
+ margin: 5px;
+ padding: 10px;
+ /*mostrar*/
+ border: 1px solid green;
+ border-radius:5px;
+    
+    
+}
+.contenidor-footer {
+ position: fixed;
+ bottom: 0%;
+ left: 0%;
+ padding: 5px 24px;
+ background-color: rgba(255, 255, 255, 0.7);
+ width: 100%;
+ font-size: 12px;
+ font-weight: 400;
+    text-align: left;
+}
+.contenidor-gif{
+    display: inline-block;
+    text-align: center;
+    
+    margin: 15%;
+    
+   
+    
+    
+}
+.contenidor-video {
+ margin: auto;
+ padding: 5px;
+    width: auto;
+ /*mostrar*/
+ 
+text-align: center;
+}
+
+/*Classes botons*/
+.boto-flex {
+ flex: 1 150px;
+ padding: 12px;
+ color: black;
+ background-color: rgba(103, 161, 125, 0.8);
+ border-radius: 5px;
+ border: 1px solid grey;
+ margin: 5px;
+ text-align: center;
+}
+.boto-flex:hover {
+ background-color: rgba(125,191,150,0.9);
+ color: white;
+    text-shadow: 1px 2px 2px #917395;
+}
+.fa-instagram,
+.fa-behance, .fa-facebook-square, .fa-twitter, .fa-youtube {
+ font-size: 2em;
+ margin: 5px;
+}
+.fa-instagram:hover,
+.fa-behance:hover, 
+.fa-facebook-square:hover, 
+.fa-twitter:hover, 
+.fa-youtube:hover {
+ color: rgba(145, 115, 149, 1);
+}
+.links {
+ text-decoration-color: rgba(145, 115, 149, 1);
+}
+.links:hover {
+ text-decoration-color: rgba(100, 70, 94, 1);
+ border-bottom: 1px solid rgba(145, 115, 149, 0.9);
+}
+.actiu {
+ background-color: rgba(145, 115, 149, 1);
+}
+/*Classes imatges*/
+.imatge1 {
+ width: 30%;
+    margin left:auto;
+}
+.imatge2 {
+ width: 100%;
+    text-align: center;
+    margin: auto;
+    
+
+}
+.formulari{
+ width: 80%;
+    margin: 80%;
+}
+
+
+
+@media only screen and (max-width: 500px) {
+ .imatge1 {
+ 
+     width: 50%;
+     margin: auto;
+ }
+ .imatge2 {
+ width: 100%;
+ display: block;
+     
+ 
+ }
+    .formulari{
+ width: 80%;
+    margin: auto;
+}
+}
+/*Classes Slider*/
+.container-slider {
+ width: 75%;
+ margin: auto;
+ border: 1px solid red;
+ box-sizing: border-box;
+ text-align: center;
+}
+.container-display {
+ position: relative;
+ width: 99%;
+ /*indicador*/
+ text-align: center;
+    margin: auto;
+ 
+}
+.boton-slider {
+ width: 30px;
+ height: 30px;
+ background-color: grey;
+}
+.boton-slider:hover {
+ width: 30px;
+ height: 30px;
+ background-color: ghostwhite;
+}
+.fletxaDreta-slider {
+ position: absolute;
+ top: 50%;
+ left: 0%;
+ transform: translate(0%, -50%);
+ */
+}
+.fletxaEsquerra-slider {
+ position: absolute;
+ top: 50%;
+ right: 0%;
+ transform: translate(0%, -50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
